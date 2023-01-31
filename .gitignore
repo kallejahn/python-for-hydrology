@@ -160,3 +160,4 @@ notebooks/part1_flopy/figures/
 # git config
 .gitconfig
 .lesshst
+.ssh/*
