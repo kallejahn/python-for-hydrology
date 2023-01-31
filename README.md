@@ -3,8 +3,7 @@
 A fork of a course!
 
 # Python USGS NYWSC Training Agenda
- 
-# Part 0: Introduction to python for hydrologists
+
 ## Tuesday
 - 800-830: Introductions and getting started
 - 830-900: Python overview and Quick orientation to conda environments and jupyter
