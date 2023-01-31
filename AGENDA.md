@@ -1,7 +1,7 @@
-# Python USGS Training Agenda
+# Python USGS NYWSC Training Agenda
  
-## Part 0: Introduction to python for hydrologists
-Monday
+# Part 0: Introduction to python for hydrologists
+## Monday
 - 800-830: Introductions and getting started  (Mike) 
 - 830-900: Python overview and Quick orientation to jupyter, environments, and hydroshare (Andy) 
 - 900-1030: 00 Python basics review: Q&A and discussion https://cscircles.cemc.uwaterloo.ca/  (A: word counting ) (Mike) 
@@ -38,7 +38,7 @@ Monday
 - 1430-1600: 11 Xarray (Andy) 
 - 1600-1700: Wrap-up: Pointing to some other packages (Joe)
 - 1700: class adjourn
-
+<!-- 
 # Part 1: Application of Python and Flopy to Groundwater Modeling 
 ## Thursday
 - 800-900: 01 Introductions and IT sorting (Mike)
@@ -62,4 +62,4 @@ Monday
 - 1530-1600: break
 - 1600-1630: 09 Run and process MF6T (Joe) 
 - 1630-1700: 10 Run and process MODPATH models (Josh) 
-- 1700: Wrap up
+- 1700: Wrap up -->

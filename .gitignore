@@ -156,3 +156,7 @@ win64/
 notebooks/part1_flopy/data_temp/
 notebooks/part1_flopy/temp/
 notebooks/part1_flopy/figures/
+
+# git config
+.gitconfig
+.lesshst
