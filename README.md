@@ -23,22 +23,19 @@ A fork of a course!
 - 1030-1100: break
 - 1100-1200: 06 Matplotlib (A: make a semi-complex plot, animation, PdfPages)
 - 1200-1300: lunch
-- 1300-1400: 06 Matplotlib(A: make a semi-complex plot, animation, PdfPages)(continued)
+- 1300-1400: 06 Matplotlib (A: make a semi-complex plot, animation, PdfPages)(continued)
 - 1400-1430: break
-- 1430-1600: 07 Theis exercise + VSCode IDE debugging, liveshare
-- 1600-1700: 08 Pandas (interesting data, viz, excel, apply correction to data, indexing, grouping, retrieving data from NWIS (various approaches), Raul’s https://github.com/raoulcollenteur/Python-Hydrology-Tools 
+- 1430-1700: 08 Pandas (interesting data, viz, excel, apply correction to data, indexing, grouping, retrieving data from NWIS (various approaches), Raul’s https://github.com/raoulcollenteur/Python-Hydrology-Tools 
 - 1700: Class Adjourn
 
 ### Thursday
-- 0800-0900: 08 Pandas (interesting data, viz, excel, apply correction to data, indexing, grouping, retrieving data from NWIS (various approaches), Raul’s https://github.com/raoulcollenteur/Python-Hydrology-Tools (continued)
-- 0900-1030: 09 GeoPandas for open-source GIS
+- 0800-1030: 09 GeoPandas for open-source GIS (A: working with open-source city data)
 - 1030-1100: break
-- 1100-1130: 09 GeoPandas for open-source GIS (A: working with open-source city data) (continued)
-- 1130-1200: 10 Rasterio 
+- 1100-1200: 10 Rasterio 
 - 1200-1300: lunch
 - 1300-1400: 10 Rasterio (continued)
 - 1400-1430: break
-- 1430-1600: 11 Xarray
+- 1430-1600: 11 Cartopy and USGS-style Figures
 - 1600-1700: Wrap-up: Pointing to some other packages
 - 1700: class adjourn
 
