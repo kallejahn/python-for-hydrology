@@ -51,7 +51,7 @@ You can do this in one of two ways.
 ### Install Python and dependencies:
 1. If you have already installed Python using Anaconda, you can skip this step. If not, install [Anaconda](https://www.anaconda.com/products/individual) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), if you prefer)
 2. If you are using __Windows__: go to the start menu and open "Anaconda prompt". An anaconda command line window will open. (On __Linux__ or __MacOS__, just use the standard terminal.) Navigate to the course repo folder on your machine. You can accomplish this by typing `cd your/folder/path` and pressing < enter >. Replace `your/folder/path` with the path to the course material folder on your computer.
-3. Next, type `conda env create -f environment.yml`. This will create an anaconda environment called "pyclass" and install the python dependencies required for this course. It may take a while. Should you wish, you can inspect the *environment.yml* file in the repo folder to see what dependecies are being installed.
+3. Next, type `conda env create -f environment.yml`. This will create an anaconda environment called "pyclass" and install the python dependencies required for this course. It may take a while. If a Windows prompt comes up requesting admin credentials, just exit the prompt. Everything should still install correctly. Should you wish, you can inspect the *environment.yml* file in the repo folder to see what dependecies are being installed.
 
 ### Start jupyter notebook
 You will need to do this step any time you wish to open one of the course notebooks.

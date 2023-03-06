@@ -7,7 +7,7 @@ dependencies:
   - pip
 
   - numpy
-  - matplotlib=3.4.3
+  - matplotlib # =3.4.3
 
   - jupyter
   - jupytext
@@ -23,7 +23,7 @@ dependencies:
   - pyshp
   - rasterio
   - rasterstats
-  - fiona>=1.8.21
+  - fiona # >=1.8.21
   - descartes
   - pyproj
   - shapely
@@ -37,15 +37,15 @@ dependencies:
   - requests
   - pytest
   - statsmodels
-  - pygeohydro=0.13.6
+  - pygeohydro # =0.13.6
   - pynhd
   - pydaymet
   - async-retriever
   - hydrofunctions
 
-  - pip:
-      - gis-utils
-      - git+https://github.com/modflowpy/flopy@develop
-      - git+https://github.com/doi-usgs/sfrmaker@develop
-      - git+https://github.com/doi-usgs/modflow-setup@develop
-      - utm
+  # - pip:
+  #     - gis-utils
+  #     - git+https://github.com/modflowpy/flopy@develop
+  #     - git+https://github.com/doi-usgs/sfrmaker@develop
+  #     - git+https://github.com/doi-usgs/modflow-setup@develop
+  #     - utm
