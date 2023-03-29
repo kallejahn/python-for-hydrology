@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   # required
-  - python=3.9
+  - python # =3.9
   - pip
 
   - numpy
@@ -12,7 +12,7 @@ dependencies:
   - jupyter
   - jupytext
   - jupyterlab
-  - git
+  # - git
   - python-dateutil
   - affine
   - scipy
@@ -30,6 +30,7 @@ dependencies:
   - geos
   - geojson
   - geopandas
+  - cartopy
   - vtk
   - xarray
   - pyyaml
@@ -43,9 +44,11 @@ dependencies:
   - async-retriever
   - hydrofunctions
 
-  # - pip:
-  #     - gis-utils
-  #     - git+https://github.com/modflowpy/flopy@develop
-  #     - git+https://github.com/doi-usgs/sfrmaker@develop
-  #     - git+https://github.com/doi-usgs/modflow-setup@develop
-  #     - utm
+  - pip:
+    - installation/dataretrieval-1.0.2-py3-none-any.whl
+    # - git+https://github.com/DOI-USGS/dataretrieval-python@master
+      # - gis-utils
+    # - git+https://github.com/modflowpy/flopy@develop
+      # - git+https://github.com/doi-usgs/sfrmaker@develop
+      # - git+https://github.com/doi-usgs/modflow-setup@develop
+      # - utm

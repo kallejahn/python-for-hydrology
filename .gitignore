@@ -148,9 +148,21 @@ win64/
 *.sbx
 *.cpg
 
-#vscode
+# vscode
 .vscode/*
 
+# conda
+.conda
+
+# matplotlib outputs
+notebooks/part0_python_intro/.matplotlib
+notebooks/part0_python_intro/*.png
+
+# created output files
+notebooks/part0_python_intro/cache/
+notebooks/part0_python_intro/data/fileio/FileWithOutComments.txt
+notebooks/part0_python_intro/data/fileio/sortedfriends.txt
+notebooks/part0_python_intro/data/fileio/test.txt
 
 # temporary directories
 notebooks/part1_flopy/data_temp/
@@ -160,4 +172,4 @@ notebooks/part1_flopy/figures/
 # git config
 .gitconfig
 .lesshst
-.ssh/*
+.ssh/
