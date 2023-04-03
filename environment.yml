@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   # required
-  - python # =3.9
+  - python=3.10
   - pip
 
   - numpy
@@ -23,6 +23,7 @@ dependencies:
   - pyshp
   - rasterio
   - rasterstats
+  - flopy
   - fiona # >=1.8.21
   - descartes
   - pyproj

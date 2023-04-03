@@ -29,7 +29,7 @@ A fork of a course!
 ### Thursday
 - 0800-1000: 10 Rasterio 
 - 1000-1030: break
-- 1030-1200: 11 Cartopy and USGS-style Figures
+- 1030-1200: 12 Cartopy and USGS-style Figures
 - 1200-1300: lunch
 - 1300: Class adjourn, but work/discussion time if folks want
 
@@ -43,15 +43,15 @@ You can do this in one of two ways.
 2. (requires familiarity with Git) Install Git following directions here: [Git](https://gitforwindows.org/). Sign-up for a Github account, then clone the the repo.
 
 ### Install Python and dependencies:
-1. If you have already installed Python using Anaconda, you can skip this step. If not, install [Anaconda](https://www.anaconda.com/products/individual) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), if you prefer)
-2. If you are using __Windows__: go to the start menu and open "Anaconda prompt". An anaconda command line window will open. (On __Linux__ or __MacOS__, just use the standard terminal.) Navigate to the course repo folder on your machine. You can accomplish this by typing `cd your/folder/path` and pressing < enter >. Replace `your/folder/path` with the path to the course material folder on your computer.
-3. Next, type `conda env create -f environment.yml`. This will create an anaconda environment called "pyclass" and install the python dependencies required for this course. It may take a while. If a Windows prompt comes up requesting admin credentials, just exit the prompt. Everything should still install correctly. Should you wish, you can inspect the *environment.yml* file in the repo folder to see what dependecies are being installed.
+1. If you have already installed Python using Anaconda, you can skip this step. If not, install [Miniconda](https://docs.conda.io/en/latest/miniconda.html#latest-miniconda-installer-links) by following that link and selecting the correct OS installer (likely Windows 64-bit). It's best to install Miniconda for the local user, which does not require admin permissions.
+2. If you are using __Windows__: go to the start menu and open "Anaconda Powershell Prompt". An Anaconda command line window will open. (On __Linux__ or __MacOS__, just use the standard terminal.) Navigate to the course repo folder on your machine. You can accomplish this by typing `cd your/folder/path` and pressing < enter >. Replace `your/folder/path` with the path to the course material folder on your computer (you can copy the path from the address bar in File Explorer). .
+3. Next, type `conda env create -f environment.yml`. This will create an anaconda environment called "pyclass" and install the python dependencies required for this course. It may take a while, a good time to grab some coffee! If a Windows prompt comes up requesting admin credentials, just exit the prompt. Everything should still install correctly. You can inspect the *environment.yml* file in the repo folder to see what is being installed.
 
 ### Start jupyter notebook
 You will need to do this step any time you wish to open one of the course notebooks.
 
 To start up the jupyter notebook:
-- Windows: open the Anaconda prompt and type `conda activate pyclass`
+- Windows: open Anaconda Powershell prompt and type `conda activate pyclass`
 - Mac/Linux: open a terminal and type `conda activate pyclass`
-- Then navigate to folder where you downloaded the course materials repo and type `jupyter notebook`
+- Then navigate to the folder (use `cd`!) where you downloaded the course materials repo and type `jupyter lab`
 A jupyter notebook instance should start within the course repo flder. Using the built-in browser, you can now navigate to the "notebooks" folder and open one.
